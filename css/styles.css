@@ -1,3 +1,10 @@
+body{
+   font-family: 'Alumni Sans Pinstripe', sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+
 header{
     display: flex;
     height: 80px;
@@ -5,8 +12,8 @@ header{
     position: absolute;
     left: 0px;
     top: 0px;
-
-background: #FFFFFF;
+    background: #FFFFFF;
+   
 }
 .logo{
     display: flex;
@@ -133,14 +140,14 @@ button{
 }
  .division1{
     display: flex;
-    text-align: center;
-    width: 100%;
-
+    text-align: justify;
+    
+    
  }
 
  .division1 article{
-  width: 33%;
-  padding-left: 17px;
+  width: 25%;
+  margin: 5px;
  }
 
  article{
@@ -240,4 +247,6 @@ button{
    line-height: 24px;
    letter-spacing: 0.03em;
   }
+
+
   
