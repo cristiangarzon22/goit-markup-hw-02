@@ -3,13 +3,17 @@
    padding: 0px;
 }
 
+body{
+   font-family: 'Roboto';
+}
+
 header{
    background-color: #ffffff;
-   width: auto;
+   width: 100%;
    height: 80px;
    display: flex;
-
 }
+
 #logo{
    margin-right: 100px;
    margin-left: 100px;
@@ -24,15 +28,17 @@ header{
    line-height: 31px;
    letter-spacing: 0.03em;
 }
+
 .navegacion{
    margin-right: 200px;
    margin-top: 35px;
    margin-bottom: 30px;
 }
+
 .navegacion ul {
    display: flex;
-
 }
+
 .navegacion ul li{
    margin-right: 50px;
    list-style: none;
@@ -43,12 +49,15 @@ header{
    line-height: 16px;
    letter-spacing: 0.02em;
 }
+
 .navegacion ul li a{
    text-decoration: none;
 }
+
 .navegacion ul li a:hover{
    color: green;
 }
+
 #contactos{
    display: flex;
    margin-top: 35px;
@@ -61,6 +70,7 @@ header{
    list-style: none;
    
 }
+
 #contactos li a{
    text-decoration: none;
    font-family: 'Roboto';
@@ -73,8 +83,9 @@ header{
 }
 
 #contactos li a:hover{
-color: green;
+   color: green;
 }
+
 .banner{
    background: #2F303A;
    width: 100%;
@@ -91,6 +102,7 @@ color: green;
    padding-top: 250px;
    padding-left: 13%;
 }
+
 button{
    margin-left: 40%;
    margin-top: 30px;
@@ -155,12 +167,10 @@ button:hover{
 .pictures{
 margin-left: 125px;
 
-
 }
 .pictures  img{
    margin: 3px;
 }
-
 
 .content2 h2{
    text-align: center;
@@ -239,20 +249,23 @@ footer ul li a{
 footer ul li {
    list-style: none;
 }
+
 .pie{
    margin-left: 215px;
    padding-top: 60px;
 }
 
 .nombres{
-display: inline-block;
+   display: inline-block;
 }
+
 .nombres h4{
    width: 270px;
    background-color: #FFFFFF;
    margin-left: 10px;
    margin-top: 0%;
 }
+
 .nombres p {
    margin-left: 10px;
    width: 270px;
@@ -260,11 +273,157 @@ display: inline-block;
    box-shadow: 0px 2px 1px 0px #00000033;
    box-shadow: 0px 1px 1px 0px #00000024;
    box-shadow: 0px 1px 3px 0px #0000001F;
-   
 }
-
 
 footer li a:hover{
    color: green;
 }
 
+.centrar{
+   display: flex;
+   margin-left: 23%;
+   margin-top: 40px;
+}
+
+button{
+   width: 150px;
+   height: 38px;
+   margin: 2px;
+   padding: 5px;
+}
+
+.main{
+   width: 1170px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.productos{
+   margin-top: 50px;
+   display: flex;
+}
+
+.productos li{
+   list-style: none;
+   margin-left: 20px;
+}
+
+.productos h4{
+   margin-top: 20px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
+   color: #212121;
+}
+
+.productos p{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+   color: #757575;
+}
+
+.footer-portafolio{  
+  width: 100%;
+  height: 252px;
+  background: #2F303A;
+  margin-top: 82px;
+  display: flex;
+}
+
+.pie-pag{
+   margin-top: 60px;
+   margin-left: 215px;
+}
+
+.pie-pag p {
+   width: 231px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+}
+
+.logo-footer{
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   color: #2196F3;
+   text-decoration: none;
+}
+
+.info-footer li a {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+   text-decoration: none;
+}
+
+.logos{
+   position: relative;
+   margin-left: 156px;
+   margin-top: 70px;
+}
+
+.info-footer li{
+   list-style: none;
+}
+
+.logos h6{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.logos ul{
+   display: flex;
+   margin-top: 20px;
+
+}
+
+.logos ul li{
+   margin-right: 10px;
+   list-style: none;
+}
+
+#sitios-web:hover{
+   background-color: orangered;
+   cursor: pointer;
+}
+
+#aplicaciones:hover{
+   background-color: orangered;
+   cursor: pointer;
+}
+
+#diseño:hover{
+   background-color: orangered;
+   cursor: pointer;
+}
+
+#marketing:hover{
+   background-color: orangered;
+   cursor: pointer;
+}
